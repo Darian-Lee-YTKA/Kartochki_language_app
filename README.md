@@ -18,9 +18,8 @@ The app is still under development, but it already includes the following featur
 
 ---
 
-🎥 **See the latest video demo [here](https://www.youtube.com/watch?v=xre68yV9YQE)**.
 
 
 
-See the latestest video demo here:
+🎥 **See the latest video demo**
 ![Demo](https://img.youtube.com/vi/xre68yV9YQE/maxresdefault.jpg)](https://www.youtube.com/watch?v=xre68yV9YQE)
