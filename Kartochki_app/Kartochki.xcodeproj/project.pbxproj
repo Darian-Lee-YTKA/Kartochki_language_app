@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2EE3572C4EBEFD0029C588 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2EE3562C4EBEFD0029C588 /* config.plist */; };
+		BF2EE3592C4EBF9B0029C588 /* ConfigStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EE3582C4EBF9B0029C588 /* ConfigStruct.swift */; };
+		BF2EE35A2C4EC0310029C588 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2EE3562C4EBEFD0029C588 /* config.plist */; };
+		BF2EE35B2C4EC0320029C588 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2EE3562C4EBEFD0029C588 /* config.plist */; };
+		BF2EE35D2C4EC0AA0029C588 /* GetSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EE35C2C4EC0AA0029C588 /* GetSuggestions.swift */; };
+		BF2EE3602C4ECAC00029C588 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = BF2EE35F2C4ECAC00029C588 /* GoogleGenerativeAI */; };
+		BF2EE3622C4ED4350029C588 /* CreateOrGetSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EE3612C4ED4350029C588 /* CreateOrGetSuggestionsView.swift */; };
+		BF2EE3642C50594A0029C588 /* PracticeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EE3632C50594A0029C588 /* PracticeViews.swift */; };
+		BF2EE3662C5062C90029C588 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EE3652C5062C90029C588 /* Timer.swift */; };
+		BFB4E0B72C0FE07C0081FBD5 /* KartochkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0B62C0FE07C0081FBD5 /* KartochkiApp.swift */; };
+		BFB4E0B92C0FE07C0081FBD5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0B82C0FE07C0081FBD5 /* LoginView.swift */; };
+		BFB4E0BB2C0FE07E0081FBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB4E0BA2C0FE07E0081FBD5 /* Assets.xcassets */; };
+		BFB4E0BE2C0FE07E0081FBD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB4E0BD2C0FE07E0081FBD5 /* Preview Assets.xcassets */; };
+		BFB4E0C82C0FE07F0081FBD5 /* KartochkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0C72C0FE07F0081FBD5 /* KartochkiTests.swift */; };
+		BFB4E0D22C0FE07F0081FBD5 /* KartochkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0D12C0FE07F0081FBD5 /* KartochkiUITests.swift */; };
+		BFB4E0D42C0FE07F0081FBD5 /* KartochkiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0D32C0FE07F0081FBD5 /* KartochkiUITestsLaunchTests.swift */; };
+		BFB4E0E12C0FF1380081FBD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFB4E0E02C0FF1380081FBD5 /* GoogleService-Info.plist */; };
+		BFB4E0E52C0FF2200081FBD5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BFB4E0E42C0FF2200081FBD5 /* FirebaseAuth */; };
+		BFB4E0E72C0FF2200081FBD5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BFB4E0E62C0FF2200081FBD5 /* FirebaseFirestore */; };
+		BFB4E0E92C0FF2200081FBD5 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFB4E0E82C0FF2200081FBD5 /* FirebaseFirestoreSwift */; };
+		BFB4E0EB2C0FFA6C0081FBD5 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0EA2C0FFA6C0081FBD5 /* AuthManager.swift */; };
+		BFB4E0ED2C100F8C0081FBD5 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0EC2C100F8C0081FBD5 /* CreateAccountView.swift */; };
+		BFB4E0F22C11093B0081FBD5 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0F12C11093B0081FBD5 /* UserStruct.swift */; };
+		BFB4E0F42C110B030081FBD5 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0F32C110B030081FBD5 /* DatabaseManager.swift */; };
+		BFB4E0F62C1B76860081FBD5 /* DecksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0F52C1B76860081FBD5 /* DecksView.swift */; };
+		BFB4E0F82C1CC9DF0081FBD5 /* DeckRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0F72C1CC9DF0081FBD5 /* DeckRowView.swift */; };
+		BFB4E0FA2C46D1690081FBD5 /* EditDecksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0F92C46D1690081FBD5 /* EditDecksView.swift */; };
+		BFB4E0FC2C46ED8F0081FBD5 /* CardCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0FB2C46ED8F0081FBD5 /* CardCreateView.swift */; };
+		BFB4E0FE2C46F3DB0081FBD5 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0FD2C46F3DB0081FBD5 /* ApiManager.swift */; };
+		BFB4E1002C4D6BA00081FBD5 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E0FF2C4D6BA00081FBD5 /* CardListView.swift */; };
+		BFB4E1022C4D81490081FBD5 /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E1012C4D81490081FBD5 /* EditCardView.swift */; };
+		BFC93A372C58818F00739B8A /* EditGoalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC93A362C58818F00739B8A /* EditGoalScreen.swift */; };
+		BFC93A392C6BBA7100739B8A /* ViewAndAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC93A382C6BBA7100739B8A /* ViewAndAlertManager.swift */; };
+		BFC93A3B2C7FB3AB00739B8A /* goalReached.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC93A3A2C7FB3AB00739B8A /* goalReached.swift */; };
+		BFC93A3D2C81467200739B8A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BFC93A3C2C81467200739B8A /* FirebaseStorage */; };
+		BFC93A402C825D4E00739B8A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BFC93A3F2C825D4E00739B8A /* SDWebImageSwiftUI */; };
+		BFC93A422C825D7400739B8A /* CertificateGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC93A412C825D7400739B8A /* CertificateGalleryView.swift */; };
+		BFC93A442C826CD500739B8A /* PastCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC93A432C826CD500739B8A /* PastCertificate.swift */; };
+		BFC93A462C8FB45300739B8A /* tada_guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFC93A452C8FB45300739B8A /* tada_guitar.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB4E0C42C0FE07F0081FBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB4E0AB2C0FE07C0081FBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB4E0B22C0FE07C0081FBD5;
+			remoteInfo = Kartochki;
+		};
+		BFB4E0CE2C0FE07F0081FBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB4E0AB2C0FE07C0081FBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB4E0B22C0FE07C0081FBD5;
+			remoteInfo = Kartochki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF2EE3562C4EBEFD0029C588 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		BF2EE3582C4EBF9B0029C588 /* ConfigStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigStruct.swift; sourceTree = "<group>"; };
+		BF2EE35C2C4EC0AA0029C588 /* GetSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSuggestions.swift; sourceTree = "<group>"; };
+		BF2EE3612C4ED4350029C588 /* CreateOrGetSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrGetSuggestionsView.swift; sourceTree = "<group>"; };
+		BF2EE3632C50594A0029C588 /* PracticeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViews.swift; sourceTree = "<group>"; };
+		BF2EE3652C5062C90029C588 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		BFB4E0B32C0FE07C0081FBD5 /* Kartochki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kartochki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB4E0B62C0FE07C0081FBD5 /* KartochkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartochkiApp.swift; sourceTree = "<group>"; };
+		BFB4E0B82C0FE07C0081FBD5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BFB4E0BA2C0FE07E0081FBD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB4E0BD2C0FE07E0081FBD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFB4E0C32C0FE07F0081FBD5 /* KartochkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartochkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB4E0C72C0FE07F0081FBD5 /* KartochkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartochkiTests.swift; sourceTree = "<group>"; };
+		BFB4E0CD2C0FE07F0081FBD5 /* KartochkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartochkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB4E0D12C0FE07F0081FBD5 /* KartochkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartochkiUITests.swift; sourceTree = "<group>"; };
+		BFB4E0D32C0FE07F0081FBD5 /* KartochkiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartochkiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFB4E0E02C0FF1380081FBD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFB4E0EA2C0FFA6C0081FBD5 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		BFB4E0EC2C100F8C0081FBD5 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		BFB4E0F02C11083D0081FBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BFB4E0F12C11093B0081FBD5 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		BFB4E0F32C110B030081FBD5 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		BFB4E0F52C1B76860081FBD5 /* DecksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksView.swift; sourceTree = "<group>"; };
+		BFB4E0F72C1CC9DF0081FBD5 /* DeckRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckRowView.swift; sourceTree = "<group>"; };
+		BFB4E0F92C46D1690081FBD5 /* EditDecksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDecksView.swift; sourceTree = "<group>"; };
+		BFB4E0FB2C46ED8F0081FBD5 /* CardCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CardCreateView.swift; sourceTree = "<group>"; tabWidth = 9; };
+		BFB4E0FD2C46F3DB0081FBD5 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		BFB4E0FF2C4D6BA00081FBD5 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		BFB4E1012C4D81490081FBD5 /* EditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardView.swift; sourceTree = "<group>"; };
+		BFC93A362C58818F00739B8A /* EditGoalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalScreen.swift; sourceTree = "<group>"; };
+		BFC93A382C6BBA7100739B8A /* ViewAndAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAndAlertManager.swift; sourceTree = "<group>"; };
+		BFC93A3A2C7FB3AB00739B8A /* goalReached.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalReached.swift; sourceTree = "<group>"; };
+		BFC93A412C825D7400739B8A /* CertificateGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateGalleryView.swift; sourceTree = "<group>"; };
+		BFC93A432C826CD500739B8A /* PastCertificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastCertificate.swift; sourceTree = "<group>"; };
+		BFC93A452C8FB45300739B8A /* tada_guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada_guitar.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB4E0B02C0FE07C0081FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC93A402C825D4E00739B8A /* SDWebImageSwiftUI in Frameworks */,
+				BFB4E0E52C0FF2200081FBD5 /* FirebaseAuth in Frameworks */,
+				BFB4E0E72C0FF2200081FBD5 /* FirebaseFirestore in Frameworks */,
+				BFB4E0E92C0FF2200081FBD5 /* FirebaseFirestoreSwift in Frameworks */,
+				BFC93A3D2C81467200739B8A /* FirebaseStorage in Frameworks */,
+				BF2EE3602C4ECAC00029C588 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4E0C02C0FE07F0081FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4E0CA2C0FE07F0081FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB4E0AA2C0FE07C0081FBD5 = {
+			isa = PBXGroup;
+			children = (
+				BFC93A452C8FB45300739B8A /* tada_guitar.mp3 */,
+				BFC93A382C6BBA7100739B8A /* ViewAndAlertManager.swift */,
+				BFB4E0B52C0FE07C0081FBD5 /* Kartochki */,
+				BFB4E0C62C0FE07F0081FBD5 /* KartochkiTests */,
+				BFB4E0D02C0FE07F0081FBD5 /* KartochkiUITests */,
+				BFB4E0B42C0FE07C0081FBD5 /* Products */,
+				BFB4E0E32C0FF2200081FBD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB4E0B42C0FE07C0081FBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4E0B32C0FE07C0081FBD5 /* Kartochki.app */,
+				BFB4E0C32C0FE07F0081FBD5 /* KartochkiTests.xctest */,
+				BFB4E0CD2C0FE07F0081FBD5 /* KartochkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB4E0B52C0FE07C0081FBD5 /* Kartochki */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4E0F02C11083D0081FBD5 /* Info.plist */,
+				BFB4E0F12C11093B0081FBD5 /* UserStruct.swift */,
+				BFB4E0F32C110B030081FBD5 /* DatabaseManager.swift */,
+				BFC93A412C825D7400739B8A /* CertificateGalleryView.swift */,
+				BFB4E0B62C0FE07C0081FBD5 /* KartochkiApp.swift */,
+				BF2EE3562C4EBEFD0029C588 /* config.plist */,
+				BFB4E0B82C0FE07C0081FBD5 /* LoginView.swift */,
+				BFB4E0EC2C100F8C0081FBD5 /* CreateAccountView.swift */,
+				BF2EE3632C50594A0029C588 /* PracticeViews.swift */,
+				BFC93A362C58818F00739B8A /* EditGoalScreen.swift */,
+				BFC93A432C826CD500739B8A /* PastCertificate.swift */,
+				BFC93A3A2C7FB3AB00739B8A /* goalReached.swift */,
+				BF2EE3652C5062C90029C588 /* Timer.swift */,
+				BFB4E0F52C1B76860081FBD5 /* DecksView.swift */,
+				BF2EE35C2C4EC0AA0029C588 /* GetSuggestions.swift */,
+				BFB4E0FF2C4D6BA00081FBD5 /* CardListView.swift */,
+				BF2EE3612C4ED4350029C588 /* CreateOrGetSuggestionsView.swift */,
+				BFB4E0F92C46D1690081FBD5 /* EditDecksView.swift */,
+				BFB4E0FB2C46ED8F0081FBD5 /* CardCreateView.swift */,
+				BFB4E0FD2C46F3DB0081FBD5 /* ApiManager.swift */,
+				BFB4E1012C4D81490081FBD5 /* EditCardView.swift */,
+				BFB4E0F72C1CC9DF0081FBD5 /* DeckRowView.swift */,
+				BFB4E0EA2C0FFA6C0081FBD5 /* AuthManager.swift */,
+				BF2EE3582C4EBF9B0029C588 /* ConfigStruct.swift */,
+				BFB4E0E02C0FF1380081FBD5 /* GoogleService-Info.plist */,
+				BFB4E0BA2C0FE07E0081FBD5 /* Assets.xcassets */,
+				BFB4E0BC2C0FE07E0081FBD5 /* Preview Content */,
+			);
+			path = Kartochki;
+			sourceTree = "<group>";
+		};
+		BFB4E0BC2C0FE07E0081FBD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4E0BD2C0FE07E0081FBD5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFB4E0C62C0FE07F0081FBD5 /* KartochkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4E0C72C0FE07F0081FBD5 /* KartochkiTests.swift */,
+			);
+			path = KartochkiTests;
+			sourceTree = "<group>";
+		};
+		BFB4E0D02C0FE07F0081FBD5 /* KartochkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4E0D12C0FE07F0081FBD5 /* KartochkiUITests.swift */,
+				BFB4E0D32C0FE07F0081FBD5 /* KartochkiUITestsLaunchTests.swift */,
+			);
+			path = KartochkiUITests;
+			sourceTree = "<group>";
+		};
+		BFB4E0E32C0FF2200081FBD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB4E0B22C0FE07C0081FBD5 /* Kartochki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB4E0D72C0FE07F0081FBD5 /* Build configuration list for PBXNativeTarget "Kartochki" */;
+			buildPhases = (
+				BFB4E0AF2C0FE07C0081FBD5 /* Sources */,
+				BFB4E0B02C0FE07C0081FBD5 /* Frameworks */,
+				BFB4E0B12C0FE07C0081FBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kartochki;
+			packageProductDependencies = (
+				BFB4E0E42C0FF2200081FBD5 /* FirebaseAuth */,
+				BFB4E0E62C0FF2200081FBD5 /* FirebaseFirestore */,
+				BFB4E0E82C0FF2200081FBD5 /* FirebaseFirestoreSwift */,
+				BF2EE35F2C4ECAC00029C588 /* GoogleGenerativeAI */,
+				BFC93A3C2C81467200739B8A /* FirebaseStorage */,
+				BFC93A3F2C825D4E00739B8A /* SDWebImageSwiftUI */,
+			);
+			productName = Kartochki;
+			productReference = BFB4E0B32C0FE07C0081FBD5 /* Kartochki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB4E0C22C0FE07F0081FBD5 /* KartochkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB4E0DA2C0FE07F0081FBD5 /* Build configuration list for PBXNativeTarget "KartochkiTests" */;
+			buildPhases = (
+				BFB4E0BF2C0FE07F0081FBD5 /* Sources */,
+				BFB4E0C02C0FE07F0081FBD5 /* Frameworks */,
+				BFB4E0C12C0FE07F0081FBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB4E0C52C0FE07F0081FBD5 /* PBXTargetDependency */,
+			);
+			name = KartochkiTests;
+			productName = KartochkiTests;
+			productReference = BFB4E0C32C0FE07F0081FBD5 /* KartochkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB4E0CC2C0FE07F0081FBD5 /* KartochkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB4E0DD2C0FE07F0081FBD5 /* Build configuration list for PBXNativeTarget "KartochkiUITests" */;
+			buildPhases = (
+				BFB4E0C92C0FE07F0081FBD5 /* Sources */,
+				BFB4E0CA2C0FE07F0081FBD5 /* Frameworks */,
+				BFB4E0CB2C0FE07F0081FBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB4E0CF2C0FE07F0081FBD5 /* PBXTargetDependency */,
+			);
+			name = KartochkiUITests;
+			productName = KartochkiUITests;
+			productReference = BFB4E0CD2C0FE07F0081FBD5 /* KartochkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB4E0AB2C0FE07C0081FBD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BFB4E0B22C0FE07C0081FBD5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BFB4E0C22C0FE07F0081FBD5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BFB4E0B22C0FE07C0081FBD5;
+					};
+					BFB4E0CC2C0FE07F0081FBD5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BFB4E0B22C0FE07C0081FBD5;
+					};
+				};
+			};
+			buildConfigurationList = BFB4E0AE2C0FE07C0081FBD5 /* Build configuration list for PBXProject "Kartochki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB4E0AA2C0FE07C0081FBD5;
+			packageReferences = (
+				BFB4E0E22C0FF1B80081FBD5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BF2EE35E2C4ECAC00029C588 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				BFC93A3E2C825D4E00739B8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = BFB4E0B42C0FE07C0081FBD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB4E0B22C0FE07C0081FBD5 /* Kartochki */,
+				BFB4E0C22C0FE07F0081FBD5 /* KartochkiTests */,
+				BFB4E0CC2C0FE07F0081FBD5 /* KartochkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB4E0B12C0FE07C0081FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2EE3572C4EBEFD0029C588 /* config.plist in Resources */,
+				BFB4E0BE2C0FE07E0081FBD5 /* Preview Assets.xcassets in Resources */,
+				BFB4E0BB2C0FE07E0081FBD5 /* Assets.xcassets in Resources */,
+				BFB4E0E12C0FF1380081FBD5 /* GoogleService-Info.plist in Resources */,
+				BFC93A462C8FB45300739B8A /* tada_guitar.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4E0C12C0FE07F0081FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2EE35A2C4EC0310029C588 /* config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4E0CB2C0FE07F0081FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2EE35B2C4EC0320029C588 /* config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB4E0AF2C0FE07C0081FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB4E0B92C0FE07C0081FBD5 /* LoginView.swift in Sources */,
+				BFB4E0EB2C0FFA6C0081FBD5 /* AuthManager.swift in Sources */,
+				BFC93A372C58818F00739B8A /* EditGoalScreen.swift in Sources */,
+				BF2EE3642C50594A0029C588 /* PracticeViews.swift in Sources */,
+				BFB4E0F42C110B030081FBD5 /* DatabaseManager.swift in Sources */,
+				BFB4E0ED2C100F8C0081FBD5 /* CreateAccountView.swift in Sources */,
+				BFC93A442C826CD500739B8A /* PastCertificate.swift in Sources */,
+				BFC93A3B2C7FB3AB00739B8A /* goalReached.swift in Sources */,
+				BFB4E0B72C0FE07C0081FBD5 /* KartochkiApp.swift in Sources */,
+				BF2EE35D2C4EC0AA0029C588 /* GetSuggestions.swift in Sources */,
+				BFB4E0F62C1B76860081FBD5 /* DecksView.swift in Sources */,
+				BFC93A392C6BBA7100739B8A /* ViewAndAlertManager.swift in Sources */,
+				BF2EE3592C4EBF9B0029C588 /* ConfigStruct.swift in Sources */,
+				BFB4E0FE2C46F3DB0081FBD5 /* ApiManager.swift in Sources */,
+				BFB4E0FC2C46ED8F0081FBD5 /* CardCreateView.swift in Sources */,
+				BFB4E1022C4D81490081FBD5 /* EditCardView.swift in Sources */,
+				BFC93A422C825D7400739B8A /* CertificateGalleryView.swift in Sources */,
+				BFB4E0F82C1CC9DF0081FBD5 /* DeckRowView.swift in Sources */,
+				BF2EE3622C4ED4350029C588 /* CreateOrGetSuggestionsView.swift in Sources */,
+				BFB4E0F22C11093B0081FBD5 /* UserStruct.swift in Sources */,
+				BF2EE3662C5062C90029C588 /* Timer.swift in Sources */,
+				BFB4E1002C4D6BA00081FBD5 /* CardListView.swift in Sources */,
+				BFB4E0FA2C46D1690081FBD5 /* EditDecksView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4E0BF2C0FE07F0081FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB4E0C82C0FE07F0081FBD5 /* KartochkiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4E0C92C0FE07F0081FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB4E0D22C0FE07F0081FBD5 /* KartochkiUITests.swift in Sources */,
+				BFB4E0D42C0FE07F0081FBD5 /* KartochkiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB4E0C52C0FE07F0081FBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB4E0B22C0FE07C0081FBD5 /* Kartochki */;
+			targetProxy = BFB4E0C42C0FE07F0081FBD5 /* PBXContainerItemProxy */;
+		};
+		BFB4E0CF2C0FE07F0081FBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB4E0B22C0FE07C0081FBD5 /* Kartochki */;
+			targetProxy = BFB4E0CE2C0FE07F0081FBD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFB4E0D52C0FE07F0081FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB4E0D62C0FE07F0081FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB4E0D82C0FE07F0081FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kartochki/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kartochki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = g.Kartochki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB4E0D92C0FE07F0081FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kartochki/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kartochki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = g.Kartochki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFB4E0DB2C0FE07F0081FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = g.KartochkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kartochki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kartochki";
+			};
+			name = Debug;
+		};
+		BFB4E0DC2C0FE07F0081FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = g.KartochkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kartochki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kartochki";
+			};
+			name = Release;
+		};
+		BFB4E0DE2C0FE07F0081FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = g.KartochkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kartochki;
+			};
+			name = Debug;
+		};
+		BFB4E0DF2C0FE07F0081FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = g.KartochkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kartochki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB4E0AE2C0FE07C0081FBD5 /* Build configuration list for PBXProject "Kartochki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB4E0D52C0FE07F0081FBD5 /* Debug */,
+				BFB4E0D62C0FE07F0081FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB4E0D72C0FE07F0081FBD5 /* Build configuration list for PBXNativeTarget "Kartochki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB4E0D82C0FE07F0081FBD5 /* Debug */,
+				BFB4E0D92C0FE07F0081FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB4E0DA2C0FE07F0081FBD5 /* Build configuration list for PBXNativeTarget "KartochkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB4E0DB2C0FE07F0081FBD5 /* Debug */,
+				BFB4E0DC2C0FE07F0081FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB4E0DD2C0FE07F0081FBD5 /* Build configuration list for PBXNativeTarget "KartochkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB4E0DE2C0FE07F0081FBD5 /* Debug */,
+				BFB4E0DF2C0FE07F0081FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF2EE35E2C4ECAC00029C588 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+		BFB4E0E22C0FF1B80081FBD5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+		BFC93A3E2C825D4E00739B8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF2EE35F2C4ECAC00029C588 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF2EE35E2C4ECAC00029C588 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		BFB4E0E42C0FF2200081FBD5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFB4E0E22C0FF1B80081FBD5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BFB4E0E62C0FF2200081FBD5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFB4E0E22C0FF1B80081FBD5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BFB4E0E82C0FF2200081FBD5 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFB4E0E22C0FF1B80081FBD5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		BFC93A3C2C81467200739B8A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFB4E0E22C0FF1B80081FBD5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		BFC93A3F2C825D4E00739B8A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFC93A3E2C825D4E00739B8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFB4E0AB2C0FE07C0081FBD5 /* Project object */;
+}

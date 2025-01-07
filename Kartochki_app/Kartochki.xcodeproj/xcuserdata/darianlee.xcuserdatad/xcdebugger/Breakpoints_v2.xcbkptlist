@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1DCA65C9-D4BE-4407-8237-5B6CF5524AD8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A36EE5D6-3008-4F3C-93D3-F3EE66057D43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kartochki/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "818"
+            endingLineNumber = "818"
+            landmarkName = "cardToDic(front:back:dueDate:id:oldInterval:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BCD31CE-6CB4-439B-8C30-3B2E0ED28543"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewAndAlertManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8CCFB83-B37D-4AFE-91E2-6ED38DA15AA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewAndAlertManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C0201A0-0C2B-4EF9-A927-3DCD387E423E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewAndAlertManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D49B25D8-FDAE-4086-99DC-161DB03A75A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewAndAlertManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E436307-E2CB-4411-B016-C6AB38D0479B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewAndAlertManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FF91DAD-C29B-4932-94D2-207F23E7E120"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kartochki/PracticeViews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1189"
+            endingLineNumber = "1189"
+            landmarkName = "startAnimation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E2B4533-904C-4F54-AD4C-4FF046593C06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kartochki/PracticeViews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1329"
+            endingLineNumber = "1329"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kartochki/PracticeViews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "635"
+            endingLineNumber = "635"
+            landmarkName = "PracticeViews"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F - d543749a818c1dda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Kartochki.PracticeViews.databaseManager : Kartochki.DatabaseManager"
+                  moduleName = "Kartochki"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Library/Autosave%20Information/Kartochki/Kartochki/PracticeViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F - 726265d94c80307d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kartochki.PracticeViews.databaseManager.getter : Kartochki.DatabaseManager"
+                  moduleName = "Kartochki"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Library/Autosave%20Information/Kartochki/Kartochki/PracticeViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F - aa44b00a2d91a36d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kartochki.PracticeViews.databaseManager.setter : Kartochki.DatabaseManager"
+                  moduleName = "Kartochki"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Library/Autosave%20Information/Kartochki/Kartochki/PracticeViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "628"
+                  endingLineNumber = "628"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F - 55af5a50f22c61c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kartochki.PracticeViews.databaseManager.modify : Kartochki.DatabaseManager"
+                  moduleName = "Kartochki"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Library/Autosave%20Information/Kartochki/Kartochki/PracticeViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "628"
+                  endingLineNumber = "628"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F - c237ccb8559d763f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kartochki.PracticeViews.databaseManager.modify : Kartochki.DatabaseManager with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Kartochki"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Library/Autosave%20Information/Kartochki/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F - 5552a1b1bd2d04b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kartochki.PracticeViews.$databaseManager.getter : SwiftUI.Binding&lt;Kartochki.DatabaseManager&gt;"
+                  moduleName = "Kartochki"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Library/Autosave%20Information/Kartochki/Kartochki/PracticeViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "12D14784-22A3-453A-9229-D2A9795CFC1F - 93dc7dac4956e56e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of Kartochki.PracticeViews.init(cardUndoManager: SwiftUI.Binding&lt;Kartochki.CardUndoManager&gt;, databaseManager: Kartochki.DatabaseManager, timerManager: SwiftUI.EnvironmentObject&lt;Kartochki.TimerManager&gt;, cardsLearned: Swift.String, goToEditGoalScreen: Swift.Bool, cardsTilReset: SwiftUI.Binding&lt;Swift.Int&gt;, currentCardIndex: Swift.Int, showRefreshScreen: Swift.Bool, language: SwiftUI.Binding&lt;Swift.String&gt;, alertMessage: SwiftUI.Binding&lt;Swift.String&gt;, alertTitle: SwiftUI.Binding&lt;Swift.String&gt;, showingAlert: SwiftUI.Binding&lt;Swift.Bool&gt;, showingAlertWithUndo: SwiftUI.Binding&lt;Swift.Bool&gt;, currentView: SwiftUI.Binding&lt;Kartochki.ViewType&gt;, selectedCard: SwiftUI.Binding&lt;Kartochki.Card&gt;, showTimer: SwiftUI.Binding&lt;Swift.Bool&gt;, mode: SwiftUI.Binding&lt;Kartochki.GoalMode&gt;, count: SwiftUI.Binding&lt;Swift.Int&gt;, showCardsLearned: SwiftUI.Binding&lt;Swift.Bool&gt;, ascending: SwiftUI.Binding&lt;Swift.Bool&gt;, alreadyReachedGoal: SwiftUI.Binding&lt;Swift.Array&lt;Swift.String&gt;&gt;, cardIDs: SwiftUI.Binding&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; Kartochki.PracticeViews"
+                  moduleName = "Kartochki"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Library/Autosave%20Information/Kartochki/Kartochki/PracticeViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EEFC0CC-9383-45F4-BDF5-63A7F6630F5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kartochki/PracticeViews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "729"
+            endingLineNumber = "729"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72D09989-CAC2-45B0-ADB1-627456AC62E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kartochki/DeckRowView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

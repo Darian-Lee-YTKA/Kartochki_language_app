@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewAndAlertManager.body.getter:ViewAndAlertManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "killView">
+            </PersistentString>
+            <PersistentString
+               value = "currentView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #6 in ViewAndAlertManager.body.getter:ViewAndAlertManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewAndAlertManager.body.getter:ViewAndAlertManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
